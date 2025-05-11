@@ -9,15 +9,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="icon" href="imagens/vs_icon_256x256.ico" type="image/x-icon">
   </head>
   <body>
     <header>
-      <a href="#home" class="logo"
-        >Victor<span style="color: orange">.Dev</span></a
-      >
-
+      <div class="logo-img">
+        <a href="#home" class="logo"><img src="imagens/logovi.png" alt="" /></a>
+      </div>
       <div class="nav">
         <a href="#home">Home</a>
         <a href="#about">Sobre</a>
@@ -34,7 +36,7 @@
 
         <h1>Sou Desenvolvedor <span style="color: orange">Front-end</span></h1>
       </div>
-      <i class='bx bx-down-arrow-alt' style='color:#ffffff' ></i>
+      <i class="bx bx-down-arrow-alt" style="color: #ffffff"></i>
     </section>
     <!-- /home section -->
 
@@ -97,7 +99,7 @@
         </div>
 
         <div class="habilites-box">
-          <i class='bx bx-code-alt'></i>
+          <i class="bx bx-code-alt"></i>
           <h3>Projetos</h3>
 
           <p>
@@ -114,58 +116,85 @@
 
     <!-- projects section -->
     <section class="projects" id="projects">
-      <h2>Últimos <span style="color: orange;">Projetos</span></h2>
+      <h2>Últimos <span style="color: orange">Projetos</span></h2>
 
-        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <div class="parallax-bg" style="
-          background-image: url(imagens/brainrot.jpg);
-        " data-swiper-parallax="-23%"></div>
-        <div class="title" data-swiper-parallax="-300">Battle Dungeon Brainrot</div>
-        <div class="subtitle" data-swiper-parallax="-200">Website apresentativo</div>
-        <div class="text" data-swiper-parallax="-100">
-          <p>
-            Desenvolvi esse site visando apresentar o jogo Battle Dungeon Brainrot, um jogo de RPG com dungeon criado por um amigo pro jogo roblox.
-          </p>
+      <div
+        style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+        class="swiper mySwiper"
+      >
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div
+              class="parallax-bg"
+              style="background-image: url(imagens/brainrot.jpg)"
+              data-swiper-parallax="-23%"
+            ></div>
+            <div class="title" data-swiper-parallax="-300">
+              Battle Dungeon Brainrot
+            </div>
+            <div class="subtitle" data-swiper-parallax="-200">
+              Website apresentativo
+            </div>
+            <div class="text" data-swiper-parallax="-100">
+              <p>
+                Desenvolvi esse site visando apresentar o jogo Battle Dungeon
+                Brainrot, um jogo de RPG com dungeon criado por um amigo pro
+                jogo roblox.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="parallax-bg"
+              style="background-image: url(imagens/gestaopront.jpg)"
+              data-swiper-parallax="-23%"
+            ></div>
+            <div class="title" data-swiper-parallax="-300">
+              Gestao de prontuarios
+            </div>
+            <div class="subtitle" data-swiper-parallax="-200">
+              sistema de gestao de prontuarios médicos
+            </div>
+            <div class="text" data-swiper-parallax="-100">
+              <p>
+                Desenvolvi esse sistema de gestão de prontuários médicos, com o
+                objetivo de facilitar o acesso e a organização dos prontuários
+                dos pacientes.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="parallax-bg"
+              style="background-image: url(imagens/chatsaude.jpg)"
+              data-swiper-parallax="-23%"
+            ></div>
+            <div class="title" data-swiper-parallax="-300">Chatsaude</div>
+            <div class="subtitle" data-swiper-parallax="-200">
+              Site de atendimento atraves de chatbot
+            </div>
+            <div class="text" data-swiper-parallax="-100">
+              <p>
+                Estou desenvolvendo esse projeto em colaboração com meu
+                professor da faculdade Carlos, o objetivo é criar um site de
+                atendimento médico através de chatbot, visando facilitar o
+                acesso a informações médicas, essa aplicao automatiza o
+                atendimento e auxiliando pacientes a encontrar profissionais
+                relacionados com seus sintomas.
+              </p>
+            </div>
+          </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
       </div>
-      <div class="swiper-slide">
-        <div class="parallax-bg" style="
-          background-image: url(imagens/gestaopront.jpg);
-        " data-swiper-parallax="-23%"></div>
-        <div class="title" data-swiper-parallax="-300">Gestao de prontuarios</div>
-        <div class="subtitle" data-swiper-parallax="-200">sistema de gestao de prontuarios médicos</div>
-        <div class="text" data-swiper-parallax="-100">
-          <p>
-            Desenvolvi esse sistema de gestão de prontuários médicos, com o objetivo de facilitar o acesso e a organização dos prontuários dos pacientes.
-          </p>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="parallax-bg" style="
-          background-image: url(imagens/chatsaude.jpg);
-        " data-swiper-parallax="-23%"></div>
-        <div class="title" data-swiper-parallax="-300">Chatsaude</div>
-        <div class="subtitle" data-swiper-parallax="-200">Site de atendimento atraves de chatbot</div>
-        <div class="text" data-swiper-parallax="-100">
-          <p>
-            Estou desenvolvendo esse projeto em colaboração com meu professor da faculdade Carlos, o objetivo é criar um site de atendimento médico através de chatbot, visando facilitar o acesso a informações médicas, essa aplicao automatiza o atendimento e auxiliando pacientes a encontrar profissionais relacionados com seus sintomas.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
-  </div>
-
     </section>
     <!-- /portifolio section -->
 
     <!-- Contato section -->
     <section class="contact" id="contact">
-      <h2>Fale <span style="color: orange;">Comigo!</span></h2>
+      <h2>Fale <span style="color: orange">Comigo!</span></h2>
 
       <form action="">
         <div class="input-box">
@@ -183,7 +212,9 @@
         <a href="#" class="btn">Enviar Mensagem</a>
       </form>
     </section>
-    <a class="back-to-top" onclick="scrollToTop()"><i class='bx bx-chevrons-up'></i></a>
+    <a class="back-to-top" onclick="scrollToTop()"
+      ><i class="bx bx-chevrons-up"></i
+    ></a>
     <!-- /Contato section -->
     <footer>
       <p>Copyright &copy; 2025 por Victor</p>
