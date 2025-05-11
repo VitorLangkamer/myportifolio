@@ -54,3 +54,29 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 100); // Delay to ensure smooth appearance
   }
 });
+
+// efeito seta descer subir
+document.addEventListener("DOMContentLoaded", () => {
+  const arrow = document.querySelector(".arrow");
+
+  if (arrow) {
+    arrow.style.position = "absolute";
+    arrow.style.left = "50%";
+    arrow.style.bottom = "20px";
+    arrow.style.transform = "translateX(-50%)";
+    arrow.style.animation = "bounce 1s infinite";
+  }
+});
+
+const style = document.createElement("style");
+style.textContent = `
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateX(-50%) translateY(0);
+    }
+    50% {
+      transform: translateX(-50%) translateY(-10px);
+    }
+  }
+`;
+document.head.appendChild(style);
